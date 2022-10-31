@@ -48,3 +48,16 @@ print("-------------------------")
 print("AVG UNEMPLOYMENT THIS YEAR:", f"{mean(rates_this_year)}%")
 print("NO MONTHS:", len(this_year))
 
+
+# Challenge C
+# 
+# Plot a line chart of unemployment rates over time.
+
+from plotly.express import line
+
+dates = [d["date"] for d in data]
+rates = [float(d["value"]) for d in data]
+
+fig = line(x=dates, y=rates, title="United States Unemployment Rate over time", labels= {"x": "Month", "y": "Unemployment Rate"})
+fig.show()
+
