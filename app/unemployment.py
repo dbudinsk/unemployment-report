@@ -17,4 +17,20 @@ print(type(parsed_response))
 pprint(parsed_response)
 
 
+
+# Challenge A
+#
+# What is the most recent unemployment rate? And the corresponding date? 
+# Display the unemployment rate using a percent sign.
+
 breakpoint()
+
+print("-------------------------")
+print("LATEST UNEMPLOYMENT RATE:")
+#print(data[0])
+print(f"{data[0]['value']}%", "as of", data[0]["date"])
+
+
+
+
+
