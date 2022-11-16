@@ -55,4 +55,12 @@ Install package dependencies:
 pip install -r requirements.txt
 ```
 
+##testing
+
+Run tests:
+
+```sh
+pytest
+```
+
 
