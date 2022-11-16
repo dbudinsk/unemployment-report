@@ -12,7 +12,7 @@ def test_usd_formatting():
 
     assert format_usd(1234567890) == "$1,234,567,890.00"
 
-    #assert format_usd("OOPS") == "______"
+   
 
 
 def test_data_fetching():
